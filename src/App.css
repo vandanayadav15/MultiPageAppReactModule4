@@ -1,38 +1,132 @@
-.App {
+/* .container{
+  width: 250px;
+  height: 250px;
+}
+
+.Card{
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+position: relative;
+  display:inline-block;
+   background: black;
+
+} */
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  background-color: black;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  width: 95%;
+  height: 39px;
+  left: 35px;
+  top: 40px;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+h5{
+  color:#333
+}
+h6{
+  color: #333
+;
+}
+.loading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
   text-align: center;
+  margin-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  position: relative;
+  top: 100px;
+  width: 350px;
+  height: 680px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  /* margin; */
+  margin-bottom: 20px;
+outline: auto;
+}
+.btn{
+  font-size: 20px;
+  color: #333;
+}
+.h2{
+  position: absolute;
+    width: 90%;
+    padding-bottom: 10px;
+    height: 39px;
+    left: 40px;
+    font-size: 40px;
+    top: 30px;
+    color: #FFFFFF;
+}
+.img{
+  position: absolute;
+    width: 283px;
+    height: 283px;
+    left: 32px;
+    top: 195px;
+    border-radius: 20px;
+}
+.id{
+  position: absolute;
+        width: 582px;
+        height: 58px;
+        left: 54px;
+        top: 493px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 58px;
+        color: #FFFFFF;
+
+}
+.body{
+      position: absolute;
+        width: 1224px;
+        height: 191px;
+        left: 54px;
+        top: 653px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 58px;
+    
+        color: #FFFFFF;
+}
+.title{
+  position: absolute;
+        width: 1231px;
+        height: 58px;
+        left: 54px;
+        top: 573px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 58px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*  */
